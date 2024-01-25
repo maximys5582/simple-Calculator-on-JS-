@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- запрещение увеличения на телефонах  -->
+    <!-- <meta name="viewport" content="user-scalable-0">  -->
+    <!-- отключает формирование ссылки у номера телефона на IOS -->
+    <!-- <meta name="format-detection" content="telephone=no"> -->
+    <!-- запрет индексации станицы полностью -->
+    <!-- <meta name="robots" content="none"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="calculator">
+        <div class="container">
+            <input type="text" class="getFirstNum" id="firstNum" value="10">
+            <input type="text" class="getSecondNum" id="secondNum" value="7">
+    
+            <div class="buttons">
+                <button class="sum" id="sum">+</button>
+                <button class="min" id="min">-</button>
+                <button class="mul" id="mul">*</button>
+                <button class="division" id="division">/</button>
+            </div>
+    
+            <button class="calculate" id="submit">Вычислить</button>
+            <h4>Результат:</h4>
+            <p id="result"></p>
+        </div>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
